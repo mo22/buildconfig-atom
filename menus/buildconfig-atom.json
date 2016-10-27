@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle my-package",
-        "command": "my-package:toggle"
+        "label": "Toggle buildconfig-atom",
+        "command": "buildconfig-atom:toggle"
       }
     ]
   },
@@ -12,11 +12,11 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "my-package",
+          "label": "buildconfig-atom",
           "submenu": [
             {
               "label": "Toggle",
-              "command": "my-package:toggle"
+              "command": "buildconfig-atom:toggle"
             }
           ]
         }

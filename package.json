@@ -1,12 +1,12 @@
 {
   "name": "buildconfig-atom",
-  "main": "./lib/my-package",
+  "main": "./lib/buildconfig-atom",
   "version": "0.3.0",
   "description": ".buildconfig integration",
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "my-package:toggle"
+    "atom-workspace": "buildconfig-atom:toggle"
   },
   "repository": "https://github.com/mo22/buildconfig-atom",
   "license": "MIT",
