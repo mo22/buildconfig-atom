@@ -1,0 +1,18 @@
+{
+  "name": "buildconfig-atom",
+  "main": "./lib/my-package",
+  "version": "0.3.0",
+  "description": ".buildconfig integration",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "my-package:toggle"
+  },
+  "repository": "https://github.com/mo22/buildconfig-atom",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
