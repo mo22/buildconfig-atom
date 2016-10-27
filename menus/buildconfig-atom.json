@@ -2,8 +2,8 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle buildconfig-atom",
-        "command": "buildconfig-atom:toggle"
+        "label": ".buildconfig run",
+        "command": "buildconfig-atom:run"
       }
     ]
   },
@@ -12,11 +12,15 @@
       "label": "Packages",
       "submenu": [
         {
-          "label": "buildconfig-atom",
+          "label": ".buildconfig",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "buildconfig-atom:toggle"
+              "label": "Run",
+              "command": "buildconfig-atom:run"
+            },
+            {
+              "label": "Run last",
+              "command": "buildconfig-atom:last"
             }
           ]
         }

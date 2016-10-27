@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "buildconfig-atom:toggle"
+    "ctrl-b": "buildconfig-atom:last",
+    "ctrl-shift-b": "buildconfig-atom:run"
   }
 }
