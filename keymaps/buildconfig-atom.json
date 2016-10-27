@@ -1,6 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-b": "buildconfig-atom:last",
-    "ctrl-shift-b": "buildconfig-atom:run"
+    "cmd-b": "buildconfig-atom:last",
+    "cmd-shift-b": "buildconfig-atom:run"
   }
 }
